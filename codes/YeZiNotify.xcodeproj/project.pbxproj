@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37012EFB24A0C0DF2C49058F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8A5F5F0E3769A93319B665 /* libPods.a */; };
+		B711D5A91CC12F32006FE3FE /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = B711D5A81CC12F32006FE3FE /* config.plist */; };
+		B711D5AC1CC137AF006FE3FE /* JCServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B711D5AB1CC137AF006FE3FE /* JCServerManager.m */; };
+		B711D5B01CC13C5B006FE3FE /* JCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B711D5AE1CC13C5B006FE3FE /* JCBaseViewController.m */; };
+		B711D5B11CC13C5B006FE3FE /* JCBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B711D5AF1CC13C5B006FE3FE /* JCBaseViewController.xib */; };
+		B7833B501CBD33F2003D23E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7833B4F1CBD33F2003D23E0 /* AppDelegate.m */; };
+		B7833B531CBD33F2003D23E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7833B521CBD33F2003D23E0 /* main.m */; };
+		B7833B561CBD33F2003D23E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7833B551CBD33F2003D23E0 /* ViewController.m */; };
+		B7833B581CBD33F2003D23E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7833B571CBD33F2003D23E0 /* Assets.xcassets */; };
+		B7833B5B1CBD33F2003D23E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7833B591CBD33F2003D23E0 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A8A5F5F0E3769A93319B665 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBA287A5149A93730F02C70 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B711D5A81CC12F32006FE3FE /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		B711D5AA1CC137AF006FE3FE /* JCServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCServerManager.h; sourceTree = "<group>"; };
+		B711D5AB1CC137AF006FE3FE /* JCServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCServerManager.m; sourceTree = "<group>"; };
+		B711D5AD1CC13C5B006FE3FE /* JCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCBaseViewController.h; sourceTree = "<group>"; };
+		B711D5AE1CC13C5B006FE3FE /* JCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCBaseViewController.m; sourceTree = "<group>"; };
+		B711D5AF1CC13C5B006FE3FE /* JCBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCBaseViewController.xib; sourceTree = "<group>"; };
+		B7833B4B1CBD33F2003D23E0 /* 安装说明管理端.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "安装说明管理端.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7833B4E1CBD33F2003D23E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7833B4F1CBD33F2003D23E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7833B521CBD33F2003D23E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7833B541CBD33F2003D23E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7833B551CBD33F2003D23E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7833B571CBD33F2003D23E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7833B5A1CBD33F2003D23E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7833B5C1CBD33F2003D23E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE17185E7CB85E18349A67B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7833B481CBD33F2003D23E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37012EFB24A0C0DF2C49058F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		602AB3A9229498417C7DB007 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FBA287A5149A93730F02C70 /* Pods.debug.xcconfig */,
+				FFE17185E7CB85E18349A67B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7833B421CBD33F2003D23E0 = {
+			isa = PBXGroup;
+			children = (
+				B7833B4D1CBD33F2003D23E0 /* YeZiNotify */,
+				B7833B4C1CBD33F2003D23E0 /* Products */,
+				602AB3A9229498417C7DB007 /* Pods */,
+				FD7EFEE692911605F9D4A5C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7833B4C1CBD33F2003D23E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7833B4B1CBD33F2003D23E0 /* 安装说明管理端.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7833B4D1CBD33F2003D23E0 /* YeZiNotify */ = {
+			isa = PBXGroup;
+			children = (
+				B711D5AA1CC137AF006FE3FE /* JCServerManager.h */,
+				B711D5AB1CC137AF006FE3FE /* JCServerManager.m */,
+				B7833B4E1CBD33F2003D23E0 /* AppDelegate.h */,
+				B7833B4F1CBD33F2003D23E0 /* AppDelegate.m */,
+				B7833B541CBD33F2003D23E0 /* ViewController.h */,
+				B7833B551CBD33F2003D23E0 /* ViewController.m */,
+				B711D5AD1CC13C5B006FE3FE /* JCBaseViewController.h */,
+				B711D5AE1CC13C5B006FE3FE /* JCBaseViewController.m */,
+				B711D5AF1CC13C5B006FE3FE /* JCBaseViewController.xib */,
+				B7833B571CBD33F2003D23E0 /* Assets.xcassets */,
+				B7833B591CBD33F2003D23E0 /* Main.storyboard */,
+				B7833B5C1CBD33F2003D23E0 /* Info.plist */,
+				B7833B511CBD33F2003D23E0 /* Supporting Files */,
+			);
+			path = YeZiNotify;
+			sourceTree = "<group>";
+		};
+		B7833B511CBD33F2003D23E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7833B521CBD33F2003D23E0 /* main.m */,
+				B711D5A81CC12F32006FE3FE /* config.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD7EFEE692911605F9D4A5C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A8A5F5F0E3769A93319B665 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7833B4A1CBD33F2003D23E0 /* YeZiNotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7833B5F1CBD33F2003D23E0 /* Build configuration list for PBXNativeTarget "YeZiNotify" */;
+			buildPhases = (
+				46BE741AA6168DB3F2C27901 /* Check Pods Manifest.lock */,
+				B7833B471CBD33F2003D23E0 /* Sources */,
+				B7833B481CBD33F2003D23E0 /* Frameworks */,
+				B7833B491CBD33F2003D23E0 /* Resources */,
+				E4C2CA47FAA5E46F9F57CC72 /* Embed Pods Frameworks */,
+				A8F73F016E89E9FD7AA392A0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YeZiNotify;
+			productName = YeZiNotify;
+			productReference = B7833B4B1CBD33F2003D23E0 /* 安装说明管理端.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7833B431CBD33F2003D23E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jhonny.copper;
+				TargetAttributes = {
+					B7833B4A1CBD33F2003D23E0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Z32PMMZBM3;
+					};
+				};
+			};
+			buildConfigurationList = B7833B461CBD33F2003D23E0 /* Build configuration list for PBXProject "YeZiNotify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7833B421CBD33F2003D23E0;
+			productRefGroup = B7833B4C1CBD33F2003D23E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7833B4A1CBD33F2003D23E0 /* YeZiNotify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7833B491CBD33F2003D23E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B711D5B11CC13C5B006FE3FE /* JCBaseViewController.xib in Resources */,
+				B7833B581CBD33F2003D23E0 /* Assets.xcassets in Resources */,
+				B7833B5B1CBD33F2003D23E0 /* Main.storyboard in Resources */,
+				B711D5A91CC12F32006FE3FE /* config.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46BE741AA6168DB3F2C27901 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F73F016E89E9FD7AA392A0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4C2CA47FAA5E46F9F57CC72 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7833B471CBD33F2003D23E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7833B561CBD33F2003D23E0 /* ViewController.m in Sources */,
+				B711D5B01CC13C5B006FE3FE /* JCBaseViewController.m in Sources */,
+				B7833B531CBD33F2003D23E0 /* main.m in Sources */,
+				B7833B501CBD33F2003D23E0 /* AppDelegate.m in Sources */,
+				B711D5AC1CC137AF006FE3FE /* JCServerManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7833B591CBD33F2003D23E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7833B5A1CBD33F2003D23E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7833B5D1CBD33F2003D23E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B7833B5E1CBD33F2003D23E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B7833B601CBD33F2003D23E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBA287A5149A93730F02C70 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = YeZiNotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = ycode.cn.YeZiNotify;
+				PRODUCT_NAME = "安装说明管理端";
+			};
+			name = Debug;
+		};
+		B7833B611CBD33F2003D23E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE17185E7CB85E18349A67B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = YeZiNotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = ycode.cn.YeZiNotify;
+				PRODUCT_NAME = "安装说明管理端";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7833B461CBD33F2003D23E0 /* Build configuration list for PBXProject "YeZiNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7833B5D1CBD33F2003D23E0 /* Debug */,
+				B7833B5E1CBD33F2003D23E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7833B5F1CBD33F2003D23E0 /* Build configuration list for PBXNativeTarget "YeZiNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7833B601CBD33F2003D23E0 /* Debug */,
+				B7833B611CBD33F2003D23E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7833B431CBD33F2003D23E0 /* Project object */;
+}

@@ -1,0 +1,7 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AVOSCloud-OSX/**" "${PODS_ROOT}/AVOSCloud-OSX/OSX/release-v3.2.7"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AVOSCloud-OSX" "${PODS_ROOT}/Headers/Public/DJProgressHUD_OSX"
+LD_RUNPATH_SEARCH_PATHS = @loader_path/../Frameworks
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AVOSCloud-OSX" -isystem "${PODS_ROOT}/Headers/Public/DJProgressHUD_OSX"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"DJProgressHUD_OSX" -l"curl" -l"icucore" -l"sqlite3" -l"z" -framework "AVOSCloud" -framework "CoreLocation" -framework "CoreServices" -framework "QuartzCore" -framework "SystemConfiguration"
+PODS_ROOT = ${SRCROOT}/Pods
